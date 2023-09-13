@@ -11,4 +11,8 @@ public class J {
     public String kk() {
         return "Yes";
     }
+
+    public double ad() {
+        return 9.11;
+    }
 }
