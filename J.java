@@ -11,12 +11,4 @@ public class J {
     public String kk() {
         return "Yes";
     }
-
-    public double ad() {
-        return 9.11;
-    }
-
-    public java.util.Random mm() {
-        return new java.util.Random();
-    }
 }
