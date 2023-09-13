@@ -12,19 +12,27 @@ public class B extends J {
         return -1;
     }
 
-    public int hh() {
-        return new java.util.Random().nextInt();
-    }
-
     public float ff() {
         return 3.14;
+    }
+
+    public byte oo() {
+        return 1;
+    }
+
+    public int hh() {
+        return new java.util.Random().nextInt();
     }
 
     public java.util.Set<Integer> ll() {
         return new java.util.LinkedList<Integer>;
     }
 
-    public byte oo() {
-        return 3;
+    public void bb() {
+        System.out.println(getClass().getName());
+    }
+
+    public String nn() {
+        return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
     }
 }
