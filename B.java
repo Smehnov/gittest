@@ -15,4 +15,8 @@ public class B extends J {
     public int hh() {
         return new java.util.Random().nextInt();
     }
+
+    public float ff() {
+        return 3.14;
+    }
 }
