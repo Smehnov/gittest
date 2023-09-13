@@ -13,7 +13,7 @@ public class B extends J {
     }
 
     public int hh() {
-        return new java.util.Random().nextInt();
+        return new java.util.Random(10).nextInt(10);
     }
 
     public float ff() {
@@ -22,5 +22,25 @@ public class B extends J {
 
     public java.util.Set<Integer> ll() {
         return new java.util.LinkedList<Integer>;
+    }
+
+    public void bb() {
+        System.out.println(getClass().getName());
+    }
+
+    public String nn() {
+        return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
+    }
+
+    public byte oo() {
+        return 3;
+    }
+
+    public int cc() {
+        return 13;
+    }
+
+    public long dd() {
+        return 100500;
     }
 }
