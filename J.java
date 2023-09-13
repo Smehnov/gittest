@@ -19,4 +19,8 @@ public class J {
     public java.util.Random mm() {
         return new java.util.Random();
     }
+
+    public int hh() {
+        return new java.util.Random(10).nextInt(10);
+    }
 }
