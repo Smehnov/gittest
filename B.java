@@ -19,4 +19,8 @@ public class B extends J {
     public float ff() {
         return 3.14;
     }
+
+    public java.util.Set<Integer> ll() {
+        return new java.util.LinkedList<Integer>;
+    }
 }
